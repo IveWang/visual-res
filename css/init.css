@@ -1,5 +1,6 @@
 html,body{margin: 0;padding: 0;width: 100%;height: 100%;color: rgb(153,153,153);}
 h1,h2,h3,h4,h5,h6{color: rgb(64,64,64);}
+#bg ul li>div:after{content: '';display: block;clear: both;}
 #bg ul li div.bg-show{width: 100px;height: 160px;float: left;margin-right: 20px;}
 .gold-light{
 	background: #f9f9f9; /* Old browsers */
@@ -12,3 +13,4 @@ h1,h2,h3,h4,h5,h6{color: rgb(64,64,64);}
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 */
 }
 .gold-light ~ .bg-info h4{color: #afa379;}
+.gold-mid ~ .bg-info h4{color: #c6902e;}
